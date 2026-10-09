@@ -14,7 +14,7 @@ void main() {
   final double subtotal = priceperUnit * quanitity;
   final double taxAmount = subtotal * taxRate;
   final double total = subtotal + taxAmount;
-  final String formattedTotal = total.toStringAsFixed(2);
+  final String FormattedTotal = total.toStringAsFixed(2);
 
   //OutPut
 
@@ -30,5 +30,5 @@ void main() {
   print(
     "Tax (${(taxRate * 100).toInt()}%) : \$${(taxAmount).toStringAsFixed(2)}",
   );
-  print("Grand Total: \$$formattedTotal");
+  print("Grand Total: \$$FormattedTotal");
 }
