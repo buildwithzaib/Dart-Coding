@@ -36,7 +36,7 @@ void main() {
   iphone2.numbers = 4;
   iphone2.isfoldable = true;
 
-  iphone.name = "Iphone 17";
+  iphone.name = "Iphone 17 Pro";
   iphone.color = "orange";
   iphone.numbers = 3;
   iphone.isfoldable = false;
